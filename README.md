@@ -40,6 +40,7 @@ Tailwind CSS / Custom CSS – UI styling
 JavaScript (ES6) – Logic and utility functions
 
 📂 Project Structure
+
 src/
 │
 ├── components/
@@ -52,12 +53,19 @@ src/
 ├── result.js                 → JSON data (dummy / real-time source)
 
 🧩 How to Use
+
 📁 ProductList: Shows full fertilizer data in a sortable/filterable grid.
+
 📊 Chart: Select a state to see bar chart of fertilizer usage.
+
 🥧 Piechart: View the top 5 fertilizers required or least available.
+
 📋 Dashboard: Navigate to the Dashboard.jsx to view overall summary.
 
 💡 Future Enhancements
+
 Add search functionality to filter states or products.
+
 Integrate backend API for live data.
+
 Add export to CSV or PDF feature.
