@@ -1,93 +1,63 @@
-<div id="top"></div>
+🌿 Fertilizer Dashboard
+A responsive and interactive web application that displays and analyzes fertilizer data across different states and timelines. It provides filtering, sorting, charting, and dashboard summaries using modern React and visualization tools.
 
-<br />
-<div align="center">
-  <h1 style="color: #60AC4A;">
-    Fyllo Interview Task
-  </h1>
+🚀 Features
 
-  <p align="center">
-    A Dashboard for chemical fertilizer company
-    <br />
-    <br />
+📊 1. Interactive Data Table
+Built with AG Grid.
+Features:
+Sorting
+Filtering (text, floating filters)
+Column hover highlighting
+Fully responsive
 
-  </p>
-</div>
+📈 2. Requirement & Availability Bar Chart
+Built with Recharts.
+View fertilizer usage (requirement or availability) across states over time.
+Selectable regions via dropdown.
+Smooth and responsive layout.
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
+🥧 3. Top 5 Fertilizers Charts
+Two separate Pie Charts:
+Top 5 Most Required Fertilizers
+Top 5 Least Available Fertilizers
+Labels and color legend included.
+Dynamically updates from real data.
 
-<!-- ABOUT THE PROJECT -->
+📋 4. Summary Dashboard
+A card-style display of:
+Total Fertilizer Types
+Top 5 Required Fertilizers
+Least 5 Available Fertilizers
+Total Requirement and Availability
+Beautifully styled to match a professional UI.
 
-## About The Project
+🛠️ Tech Stack
+React.js – UI Framework
+AG Grid – For advanced table display
+Recharts – For bar and pie chart visualizations
+Tailwind CSS / Custom CSS – UI styling
+JavaScript (ES6) – Logic and utility functions
 
-The project is to create a dashboard for fyllo, displaying the table, which contains the list of fertilizer and their details like availability, requirements etc. And the analytics which is shown in graph so the user can easily know about the insights.Finally this project contains some dummy placeholders to make it look good eg: Navbar.
+📂 Project Structure
+src/
+│
+├── components/
+│   ├── ProductList/          → AG Grid Table
+│   ├── Chart/                → Bar chart (Requirement / Availability)
+│   ├── Piechart/             → Pie charts for Top 5 fertilizers
+│   ├── Dashboard/            → Fertilizer summary card dashboard
+│
+├── utils.js                  → Utility functions for data formatting
+├── result.js                 → JSON data (dummy / real-time source)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+🧩 How to Use
+📁 ProductList: Shows full fertilizer data in a sortable/filterable grid.
+📊 Chart: Select a state to see bar chart of fertilizer usage.
+🥧 Piechart: View the top 5 fertilizers required or least available.
+📋 Dashboard: Navigate to the Dashboard.jsx to view overall summary.
 
-### Built With
-
-Here is the list of libraries and frameworks used for the project
-
-- [React.js](https://reactjs.org/)
-- [Ag Grid](https://reactjs.org/)
-- [Re Charts](https://reactjs.org/)
-- [Material UI](https://reactjs.org/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-To run this project, You’ll need to have
-
-- npm
-  ```sh
-  Node v14.17.6 or greater
-  npm 6.14.15 or greater
-  ```
-
-### Installation and Setup
-
-1. Clone the repo
-   ```sh
-   git clone https://ankitsingh_16@bitbucket.org/ankitsingh_16/fertilizer.git
-   ```
-2. Install packages
-   ```sh
-   npm install or yarn install
-   ```
-3. To start server
-   ```sh
-    npm start or yarn start
-   ```
-4. To visit App
-   ```sh
-   localhost:3000
-   ```
-   <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+💡 Future Enhancements
+Add search functionality to filter states or products.
+Integrate backend API for live data.
+Add export to CSV or PDF feature.
