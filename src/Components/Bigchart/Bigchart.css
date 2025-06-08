@@ -1,0 +1,43 @@
+.bigchart {
+  flex: 1;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.bigchartTitle {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+.bigchartSelect {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.selectBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectBox label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.selectBox select {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.errordata {
+  margin-top: 20px;
+  color: #b00;
+  font-size: 14px;
+  text-align: center;
+}

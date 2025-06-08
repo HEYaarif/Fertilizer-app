@@ -1,0 +1,62 @@
+.dashboard-container {
+  padding: 30px;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #2d662f;
+  margin-bottom: 30px;
+}
+
+.dashboard-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 220px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  max-width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card p {
+  margin: 4px 0;
+  font-size: 15px;
+}
+
+.green {
+  border-left: 6px solid #2ecc71;
+}
+
+.blue {
+  border-left: 6px solid #3498db;
+}
+
+.red {
+  border-left: 6px solid #e74c3c;
+}
+
+.orange {
+  border-left: 6px solid #f39c12;
+}

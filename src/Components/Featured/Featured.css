@@ -1,0 +1,25 @@
+.featured {
+  width: 86vw;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.featuredItem {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.widgetsm{
+  height: 435px;
+  width: 435px;
+}
+
+.featuredpiechart{
+  display: flex;
+  justify-content: space-around;
+  
+}
